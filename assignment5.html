@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Assignment5</title>
+    <h2>sales in company</h2>
+</head>
+<body>
+    <script>
+        console.log("Assignment 5");
+            let amount = prompt("enter the amount?");
+            if(amount >= 0 && amount <= 5000){
+                var percent = 0.02;
+            }
+            else if(amount >= 5001 && amount <=10000){
+                var percent = 0.05;
+            }
+            else if(amount >=10001 && amount <= 20000){
+                var percent = 0.07;
+            }
+            else if(amount > 20000){
+                var percent = 0.1;
+            }
+            let total = amount * percent;
+            console.log(total);
+
+
+       
+       
+    </script>
+</body>
+</html>

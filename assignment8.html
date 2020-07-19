@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Assignment8</title>
+    <h2>Replace Function Expressions with arrow functions in the code</h2>
+</head>
+<body>
+    <script>
+        console.log("Assignment 8");
+        function ask(question, yes, no) {
+        if (confirm(question)) yes()
+        else no();
+        }
+        ask(
+        "Do you agree?",
+        () => alert("You agreed."),
+        () => alert("You canceled the execution.")
+        );
+    
+        
+    </script>
+</body>
+</html>
