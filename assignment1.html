@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Assignment1</title>
+    <h4>create a for loop that iterates upto 100 while outputing "fizz" at multiplies of 3, 
+        "buzz" at multiplies of 5 and
+        "fizzbuzz" at multiplies of 3 and 5 in javascript
+    </h4>
+</head>
+<body>
+    <script>
+        console.log("Assignment1 ")
+        let num = prompt("enter a number??");
+        for (let num = 0; num <= 100; num++){
+        if ((0 == num % 3) && (0 == num % 5)){
+           console.log ("FizzBuzz" + " " + num); 
+        } else if (0 == num % 5) {
+          console.log("Buzz" + " " + num);
+        } else if (0 == num % 3){
+           console.log("fizz" + " " + num);
+        } else {
+        console.log (num);
+         }
+    }
+    </script>
+
+
+
+
+</body>
+</html>
