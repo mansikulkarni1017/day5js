@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 Assignment2</title>
+    <h2> destructuring the objects</h2>
+</head>
+<body>
+    <script>
+        console.log("Assignment 2");
+        const student = {
+            name: "Helinski",
+            age: 24,
+            project : {
+                diceGame: "two player dice game using javascript"
+            }
+        }
+        const { name, age, project :{diceGame}} = student;
+        console.log(name, age, diceGame);
+    </script>
+</body>
+</html>
